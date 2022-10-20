@@ -1,0 +1,235 @@
+.header {
+    position: relative;
+    height: 610px;
+    background:linear-gradient(90.12deg, rgba(0, 0, 0, 0.25) 29.13%, rgba(0, 0, 0, 0.5) 52.72%, rgba(0, 0, 0, 0.25) 73.86%), url(../img/home-and-knifes.jpg); 
+    background-size: cover;
+}
+.header__slider-wrapper {
+    padding: 257px 0 0 0px;
+    text-align: center;
+}
+.header__title {
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px; 
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: auto;
+}
+.header__subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 40px auto 0;
+    max-width: unset;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 30px;
+}
+.product-list__about-collection {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 514px; 
+    border-radius: 14px;
+    background-size: cover !important;
+}
+.product-list__about-collection:nth-child(1) {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/tuotown-collection.jpg);
+    background-repeat: no-repeat;
+}
+.product-list__about-collection:nth-child(2) {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/savernake-brown.jpg);
+    background-repeat: no-repeat;
+}
+.product-list__about-collection:nth-child(3) {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/savernake-blue.jpg);
+    background-repeat: no-repeat;
+}
+.product-list__about-collection:nth-child(4) {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/savernake-dark-brown.jpg);
+    background-repeat: no-repeat;
+}
+.product-list__about-collection:nth-child(5) {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/savernake-yellow.jpg);
+    background-repeat: no-repeat;
+}
+.product-list__about-collection:nth-child(6) {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/savernake-dark-brown2.jpg);
+    background-repeat: no-repeat;
+}
+.product-list__about-collection-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 26px 28px;
+}
+.product-list__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.main__horizontal-line {
+    content: attr(div);
+    width: 100%;
+    height: 1px;
+    background: #FFFFFF;
+    opacity: 0.1;
+    margin: 30px 0;
+}
+.product-list__new {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FF3232;
+}
+
+.knews-wrapper_background {
+    background-image: url(../img/Insta\ cart.jpg);
+    background-repeat: no-repeat;
+}
+.link-cards-wrapper {
+    display: flex;
+    gap: 19.5px;
+    justify-content: start;
+    overflow-x: auto;
+}
+.link-cards-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.link-card {
+    display: block;
+    text-decoration: none;
+    flex: 0 0 144px;
+    border-radius: 15px;
+}
+.link-card:nth-child(1) {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/link-cart1.jpg);
+}
+.link-card:nth-child(2) {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/link-cart2.jpg);
+}
+.link-card:nth-child(3) {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/link-cart3.jpg);
+}
+.link-card:nth-child(4) {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/link-cart4.jpg);
+}
+.link-card:nth-child(5) {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/link-cart5.jpg);
+}
+.link-card:nth-child(6) {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/link-cart6.jpg);
+}
+.link-card:nth-child(7) {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/link-cart7.jpg);
+}
+.link-card:nth-child(8) {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/link-cart8.jpg);
+}
+.link-card__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+
+
+/* ADAPT TABLET */
+
+@media screen and (max-width: 768.1px) {
+   /* CONTAINER  */
+
+   .main__horizontal-line {
+    margin: 30px 0;
+    }
+    .header-banner-container,
+    .main-container {
+        max-width: 664px;
+        padding: 17px;
+    }
+    
+    /* HEADER  */
+   
+   .menu-container {
+    max-width: unset;
+    padding: 0 15px;
+    }
+    .header {
+        background: linear-gradient(90.12deg, rgba(0, 0, 0, 0.25) 29.13%, rgba(0, 0, 0, 0.5) 52.72%, rgba(0, 0, 0, 0.25) 73.86%), url(../img/home-and-knifes2.jpg);
+        background-size: cover;
+    }
+
+    /* MAIN  */
+    .product-list {
+        margin-top: 0;
+    }
+    .product-list__about-collection {
+        height: 289px;
+    }
+    .product-list__about-collection-link {
+        padding: 0 22px 22px 20px;
+        gap: 21px;
+    }
+    .product-list__title {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .product-list__news {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .product-list__input-wrapper {
+        margin-top: 20px;
+    }
+
+}
+
+/* MOBILE  */
+
+@media screen and (max-width: 566px) { 
+    /* HEADER  */
+    .header {
+        height: 244px;
+    }
+    .header__slider-wrapper {
+        padding-top: 71px;
+    }
+    .header__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* MAIN  */
+    .product-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .product-list__news-wrapper {
+        padding: 0 0 30px;
+    }
+}
