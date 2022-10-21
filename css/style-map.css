@@ -1,0 +1,353 @@
+.header {
+    background: none;
+}
+.header__more-link  {
+    display: block;
+    width: 169px;
+    margin-top: 55px;
+    padding: 16px 34px;
+    border: 2px solid #C80000;
+    border-radius: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;    
+    text-decoration: none;
+    transition: all 0.15s;
+}
+.header__more-link:hover {
+    border: 2px solid #FFFFFF;
+    color: #C80000;
+}
+
+.map-title {
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.map-wrapper {
+    height: 961px;
+    background: #272727;
+}
+.map-wrapper__search {
+    padding: 30px 0 40px;
+}
+.map-wrapper__input-wrapper {
+    flex-basis:642px;
+    flex-shrink: 1;
+    height: 50px;
+    border: 1px solid #4F4F4F;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+.map-wrapper__input-email,
+.map-wrapper__input-button {
+    display: block;
+    background-color: unset;
+    border: none;
+    outline: none;
+}
+.map-wrapper__input-email {
+    display: block;
+    flex: 1 1 580px;
+    padding-left: 30px;
+}
+.map-wrapper__input-email,
+.map-wrapper__input-email::placeholder {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ADACAC;
+}
+.map-wrapper__input-email:focus::placeholder {
+    opacity: 0;
+}
+.map-wrapper__input-button-wrapper {
+    width: 62px;
+}
+.map-wrapper__input-button-wrapper:hover {
+    background-color: #1b1b1b;
+    border-radius:0 20px 20px 0;
+}
+.map-wrapper__input-button {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+.map-wrapper__input-button-arrow {
+    position: absolute;
+    top: 21px;
+    right: 23px;
+    z-index: 1;
+}
+.map-wrapper__input-button:hover {
+    cursor: pointer;
+}
+.map-wrapper__iframe-and-addresses {
+    display: flex;
+    gap: 30px;
+}
+.map-iframe-container {
+    flex: 1 1 960px;
+    height: 771px;
+}
+.google-map {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.map-wrapper__search {
+    display: flex;
+}
+.map-wrapper__list-of-buttons {
+    margin-left: 48px;
+    display: flex;
+    gap: 15px;
+}
+.map-wrapper__button-wrapper {
+    box-sizing: border-box;
+    flex: 0 0 50px;
+    height: 50px;
+    margin: 0;
+}
+.map-wrapper__button-wrapper:nth-child(2) {
+    margin-left: 15px;
+}
+.map-wrapper__button-img {
+    position: absolute;
+    width: 26px; 
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    fill: white;
+    opacity: 0.5;
+    z-index: 1;
+}
+.map-wrapper__button {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+    border: 2px solid;
+    border-color: #4F4F4F;
+    border-radius: 50%;
+    background: #333333;
+}
+.map-wrapper__button:hover,
+.map-wrapper__button:hover .map-wrapper__button-img,
+.map-wrapper__button:focus,
+.map-wrapper__button:focus .map-wrapper__button-img {
+    border-color: #C80000;
+    opacity: 1;
+}
+
+.map-wrapper__addresses {
+    flex: 0 1 300px;
+}
+.map-wrapper__find-button {
+    width: 100%;
+    border: 2px solid #4F4F4F;
+    border-radius: 27px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 16px 0;
+}
+.map-wrapper__find-button:hover {
+    box-shadow: inset 0px 0px 0px 3px #f7f7f7;
+}
+.map-wrapper__places-list-wrapper {
+    margin-top: 36px;
+    height: 682px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.map-wrapper__places-list,
+.map-wrapper__places-button,
+.map-wrapper__places-telephone {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #828282;
+    text-decoration: none;
+}
+.map-wrapper__places-button {
+    padding-top: 11px;
+    display: flex;
+    gap: 11px;
+    padding-left: 4.71px;
+}
+.map-wrapper__places-title {
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.map-wrapper__places-title:first-of-type {
+    padding-top: 0;
+}
+
+.knife-benefits {
+    padding: 90px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 89px;
+    column-gap: 30px;
+}
+.knife-benefits__title-wrapper {
+    max-width: 410px;
+    justify-self: center;
+    align-self: center;
+}
+.knife-benefits__title {
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.knife-benefits__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 24px;
+}
+
+
+/* ADAPT DESKTOP */
+
+@media screen and (max-width: 1050.1px) {
+    .map-wrapper__input-wrapper {
+        flex-basis: 600px;
+    }
+    .map-wrapper__list-of-buttons {
+        display: none;
+    }
+}
+
+/* ADAPT TABLET */
+
+@media screen and (max-width: 768.1px) {
+
+/* MAIN  */
+    .map-wrapper__search {
+        justify-content: center;
+    }
+    .map-iframe-container {
+        height: 531px;
+        flex: unset;
+    }
+    .map-wrapper {
+        height: unset;
+    }
+    .map-wrapper__iframe-and-addresses {
+        flex-direction: column;
+    }
+    .map-wrapper__find-button {
+        max-width: 300px;
+    }
+    .map-wrapper__places-list-wrapper {
+        flex-direction: row;
+        gap: 52px;
+        height: unset;
+        padding-bottom: 15px;
+    }
+    .map-wrapper__places-list {
+        flex: 1 0 332px;
+    }
+    .knife-benefits {
+        padding: 30px 0 90px;
+        row-gap: 30px;
+    }
+    .knife-benefits__title-wrapper {
+        max-width: 300px;
+        padding-top: 78px;
+        justify-self: start;
+        align-self: flex-start;
+
+    }
+    .knife-benefits__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .product-list__news {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+
+    /* MOBILE  */
+
+    @media screen and (max-width: 566px) { 
+      
+    /* HEADER  */
+    .header {
+        height: 43px;
+    }
+    .header__slider-wrapper {
+        padding: 71px 0 0;
+    }
+
+/* MAIN   */
+    .map-iframe-container {
+        height: 291px;
+    }
+    .map-wrapper__find-button {
+        max-width: unset;
+    }
+    .product-list__news-wrapper {
+        padding: 30px 0 30px;
+    }
+    .knife-benefits {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 0 0;
+    }
+    .knife-benefits__title-wrapper {
+        padding-top: 0;
+        padding-bottom: 52px;
+    }
+    .knife-benefits__title-wrapper:nth-child(2) {
+        order: 4;
+        padding-bottom: 0;
+    }
+    .knife-benefits__subtitle {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .knife-benefits__second-illustration {
+        order: 3;
+    }
+    
+}
